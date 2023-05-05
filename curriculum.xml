@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+<curriculum>
+  <informacion-personal>
+    <nombre>Richard Roiget</nombre>
+    <telefono>722 566 828</telefono>
+    <email>rroiget@gmail.com</email>
+  </informacion-personal>
+  <experiencia-laboral>
+    <trabajo>
+      <nombre>Empresa Deltaventur</nombre>
+      <cargo> Monitor d'activitats</cargo>
+      <fecha>2022-2023</fecha>
+      <descripcion>Monitor de difernentes activitast com tirolina,arcs,pons tibetans,etc.</descripcion>
+    </trabajo>
+    <trabajo>
+      <nombre>Agen Civic</nombre>
+      <cargo>Vigilan</cargo>
+      <fecha>2021-2022</fecha>
+      <descripcion>Vigilancia de les pisines de santa barbara</descripcion>
+    </trabajo>
+  </experiencia-laboral>
+  <educacion>
+    <titulo>ESO</titulo>
+    <institucion>IES Les Planes</institucion>
+    <fecha>2018-2019</fecha>
+  </educacion>
+</curriculum>
