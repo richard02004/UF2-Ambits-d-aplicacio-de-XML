@@ -1,38 +1,112 @@
+/* Estilos globales */
 body {
   font-family: Arial, sans-serif;
-}
-
-header {
-  display: flex;
-  align-items: center;
-  height: 200px;
-  background-color: rgb(54, 20, 191);
-  color: white;
-}
-
-.picture {
-  flex: 0 0 25%;
-}
-
-.picture img {
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto;
-}
-
-.identificador {
-  flex: 1;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #e1d7d7; /* Rojo del FC Barcelona */
+  margin: 0;
+  padding: 0;
   text-align: center;
+  background-color: #848ba3; /* Azul del FC Barcelona */
 }
 
 h1 {
+  font-size: 44px; /* Aumenta el tamaño de la letra */
+  margin-bottom: 10px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px; /* Aumenta el tamaño de la letra */
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul {
   margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Estilos para la información personal */
+.informacion-personal {
+  margin-bottom: 20px;
+}
+
+.informacion-personal h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+/* Estilos para la experiencia laboral */
+.experiencia-laboral {
+  margin-bottom: 20px;
+}
+
+.experiencia-laboral .trabajo {
+  margin-bottom: 15px;
+}
+
+.experiencia-laboral .nombre {
+  font-weight: bold;
+  color: #fff4f4; /* Rojo del FC Barcelona */
+  font-size: 24px; /* Aumenta el tamaño de la letra */
+}
+
+.experiencia-laboral .cargo {
+  font-style: italic;
+  color: #888;
+}
+
+.experiencia-laboral .fecha {
+  font-size: 12px;
+  color: #888;
+}
+
+.experiencia-laboral .descripcion {
+  margin-top: 5px;
+}
+
+/* Estilos para la educación */
+.educacion {
+  margin-bottom: 20px;
+}
+
+.educacion .titulo {
+  font-weight: bold;
+  color: #fdf6f6; /* Rojo del FC Barcelona */
+  font-size: 24px; /* Aumenta el tamaño de la letra */
+}
+
+.educacion .institucion {
+  font-style: italic;
+  color: #888;
+  
+}
+
+.educacion .fecha {
+  font-size: 12px;
+  color: #888;
+}
+
+/* Estilos para la cabecera y la navegación */
+header {
+  background-color: #fbfbfb; /* Azul del FC Barcelona */
+  color: #fff;
+  text-align: center;
 }
 
 nav {
-  background-color: rgb(38, 6, 6);
-  color: white;
-  text-align: center;
+  background-color: #000; /* Fondo negro */
+  padding: 20px 0; /* Espaciado interno para la barra de navegación */
 }
 
 nav ul {
@@ -40,77 +114,58 @@ nav ul {
   padding: 0;
   list-style: none;
   display: flex;
+  justify-content: center;
 }
 
 nav li {
-  margin: 0;
-  padding: 0;
+  margin: 50px; /* Espaciado entre los elementos de navegación */
 }
 
 nav a {
-  display: block;
   padding: 14px 16px;
-  color: white;
+  color: #fff;
   text-decoration: none;
+  font-family: "Arial Black", Arial, sans-serif;
+  font-size: 32px;
 }
 
 nav a:hover {
-  background-color: rgb(95, 15, 15);
+  background-color: #d50000; /* Rojo del FC Barcelona */
 }
 
 .container {
-  width: 80%;
-  margin: 0 auto;
+  max-width: 1200px; /* Ancho máximo del contenido */
+  margin: 0 auto; /* Centrar el contenido horizontalmente */
+  padding: 20px; /* Espaciado interno del contenedor */
+  
 }
 
-.section {
-  margin-bottom: 40px;
-}
-
-.titul-seccio {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.footer1 {
-  background-color: rgb(54, 20, 191);
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-}
-
-/* Responsif */
-
-@media only screen and (max-width: 600px) {
-  .container {
-    width: 90%;
+/* Estilos para hacer la página responsive */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
   }
-
-  .picture {
-    width: 100%;
-    text-align: center;
+  
+  h1 {
+    font-size: 20px;
   }
-
-  img {
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  h3 {
+    font-size: 16px;
+  }
+  
+  nav a {
+    font-size: 20px;
+    padding: 10px 12px;
+  }
+  
+  /* Hacer la imagen más grande en pantallas pequeñas */
+  .imagen-responsive {
     max-width: 100%;
-  }
-
-  header {
-    height: 400px;
-    flex-direction: column;
-  }
-
-  .identificador {
-    text-align: center;
-    margin-top: 20px;
-  }
-
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav li {
-    margin-bottom: 10px;
+    height: auto;
   }
 }
