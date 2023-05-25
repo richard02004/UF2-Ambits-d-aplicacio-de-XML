@@ -3,11 +3,10 @@ body {
   font-family: Arial, sans-serif;
   font-size: 20px;
   line-height: 1.5;
-  color: #e1d7d7; /* Rojo del FC Barcelona */
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: #848ba3; /* Azul del FC Barcelona */
+  background-color: #343434; /* Azul del FC Barcelona */
 }
 
 h1 {
@@ -17,12 +16,13 @@ h1 {
 }
 
 h2 {
-  font-size: 24px; /* Aumenta el tamaño de la letra */
+  font-size: 18px; /* Aumenta el tamaño de la letra */
   margin-bottom: 10px;
 }
 
 h3 {
-  font-size: 18px;
+  background-color: rgb(64, 64, 64);
+  font-size: 25px;
   margin-bottom: 10px;
 }
 
@@ -106,7 +106,7 @@ header {
 
 nav {
   background-color: #000; /* Fondo negro */
-  padding: 20px 0; /* Espaciado interno para la barra de navegación */
+  padding: 5px 0; /* Espaciado interno para la barra de navegación */
 }
 
 nav ul {
@@ -118,7 +118,7 @@ nav ul {
 }
 
 nav li {
-  margin: 50px; /* Espaciado entre los elementos de navegación */
+  margin: 5px; /* Espaciado entre los elementos de navegación */
 }
 
 nav a {
@@ -130,14 +130,20 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #d50000; /* Rojo del FC Barcelona */
+  background-color: dimgrey; /* Rojo del FC Barcelona */
 }
 
 .container {
   max-width: 1200px; /* Ancho máximo del contenido */
   margin: 0 auto; /* Centrar el contenido horizontalmente */
   padding: 20px; /* Espaciado interno del contenedor */
-  
+  background-color: #888;
+}
+
+.section {
+  background-color: rgb(106, 106, 106);
+  border-radius: 30px;
+  margin: 5px;
 }
 
 /* Estilos para hacer la página responsive */
@@ -159,8 +165,11 @@ nav a:hover {
   }
   
   nav a {
-    font-size: 20px;
-    padding: 10px 12px;
+    background-color: orange;
+  }
+
+  .container {
+    background-color: orange;
   }
   
   /* Hacer la imagen más grande en pantallas pequeñas */

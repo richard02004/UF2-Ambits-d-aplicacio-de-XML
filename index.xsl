@@ -18,15 +18,16 @@
             <nav>
               <ul>
                 <li><a href="#Contacteinfo">Infomacio de contacte</a></li>
-                <li><a href="#Experiencia">Experiencia_Laboral</a></li>
+                <li><a href="#Experiencia">Experiencia Laboral</a></li>
                 <li><a href="#Educacio">Educacio</a></li>
               </ul>
             </nav>
           </header>
-          <h3 id="Contacteinfo">Informació de contatce</h3>
           <div class="section">
+            <h3 id="Contacteinfo">Informació de contatce</h3>
             <p><xsl:value-of select="curriculum/informacion-personal/email"/></p>
             <p><xsl:value-of select="curriculum/informacion-personal/telefono"/></p>
+            <p><xsl:value-of select="curriculum/informacion-personal/adreca"/></p>
           </div>
 
           <div id="Experiencia" class="section">
@@ -48,7 +49,7 @@
             <h3 class="titul-seccio">Educacio</h3>
             <div class="section-content">
               <h4><xsl:value-of select="curriculum/educacion/titulo"/> al <xsl:value-of select="curriculum/educacion/institucion"/></h4>
-              <p><xsl:value-of select="curriculum/educacion/fecha"/></p>
+              <span><xsl:value-of select="curriculum/educacion/fecha"/></span>
             </div>
           </div>
         </div>
