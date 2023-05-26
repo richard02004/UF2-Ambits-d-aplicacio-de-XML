@@ -138,12 +138,14 @@ nav a:hover {
   margin: 0 auto; /* Centrar el contenido horizontalmente */
   padding: 20px; /* Espaciado interno del contenedor */
   background-color: #888;
+  
 }
 
 .section {
   background-color: rgb(106, 106, 106);
   border-radius: 30px;
   margin: 5px;
+  height: 40%;
 }
 
 /* Estilos para hacer la página responsive */

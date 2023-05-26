@@ -3,8 +3,9 @@
 <curriculum>
   <informacion-personal>
     <nombre>Richard Roiget</nombre>
-    <telefono>722 566 828</telefono>
-    <email>rroiget@gmail.com</email>
+    <telefono>Phone: 696-696-696</telefono>
+    <email>Email: rroiget@gmail.com</email>
+    <adreca>Adreça: COmerç 7 Pis: 1 Porta: 2</adreca>
   </informacion-personal>
   <experiencia-laboral>
     <trabajo>
@@ -21,6 +22,11 @@
     </trabajo>
   </experiencia-laboral>
   <educacion>
+    <titulo>ESO</titulo>
+    <institucion>IES Les Planes</institucion>
+    <fecha>2018-2019</fecha>
+  </educacion>
+    <educacion>
     <titulo>ESO</titulo>
     <institucion>IES Les Planes</institucion>
     <fecha>2018-2019</fecha>
